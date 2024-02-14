@@ -1,0 +1,38 @@
+/* Farver:
+#F2EFEA beige
+#FC7753 orange
+#66D7D1 turkis
+#403D58 mørkeblå
+#DBD56E grøn */
+
+@font-face {
+    font-family: "arya";
+    src: url(../font/Arya.woff2);
+  }
+
+@font-face {
+    font-family: "avenir";
+    src: url(../font/Avenir.woff2);
+  }
+
+  h1, h2{
+    font-family: "arya";
+    font-size: 28px;
+  }
+
+  p{
+    font-family: "arya";
+    font-size: 20px;
+  }
+
+img{
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.category{
+    background-color: #F2EFEA;
+    border: 1em solid #F2EFEA;
+    text-align: center;
+}
