@@ -4,35 +4,95 @@
 #66D7D1 turkis
 #403D58 mørkeblå
 #DBD56E grøn */
-
-@font-face {
-    font-family: "arya";
-    src: url(../font/Arya.woff2);
-  }
-
-@font-face {
-    font-family: "avenir";
-    src: url(../font/Avenir.woff2);
-  }
-
-  h1, h2{
-    font-family: "arya";
-    font-size: 28px;
-  }
-
-  p{
-    font-family: "arya";
-    font-size: 20px;
-  }
-
-img{
-    height: auto;
-    width: 100%;
-    border-radius: 50%;
+body{
+  background-color: #F2EFEA;
 }
 
-.category{
-    background-color: #F2EFEA;
-    border: 1em solid #F2EFEA;
-    text-align: center;
+main{
+  padding: 4em;
 }
+
+footer{
+  background-color: #DBD56E;
+}
+
+@font-face {
+  font-family: "avenir";
+  src: url(../font/Avenir.woff2);
+}
+
+@font-face {
+  font-family: "novecento";
+  src: url(../font/Novecento.woff2);
+}
+
+h1,
+h2 {
+  font-family: "novecento";
+  font-size: 28px;
+  text-align: center;
+}
+
+p, form, button {
+  font-family: "avenir";
+  font-size: 20px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.frontImg img{
+  height: 400px;
+  width: 100%;
+border-radius: 0;
+z-index: -1;
+place-content: cover;
+}
+
+.frontP{
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  background-color: #66D7D1;
+  border-radius: 100px;
+  padding: 5% 5%;
+  left: 42.5%;
+}
+
+.category {
+  background-color: #fc7753;
+  border: 1em solid #fc7753;
+  text-align: center;
+}
+
+/* knap på måned side */
+.button {
+  background-color: #66D7D1;
+  /* border: solid 1px rgb(20, 20, 20); */
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+.button:hover {
+  background-color: #F2EFEA;
+  cursor: pointer;
+  
+}
+
+#infoBox{
+  background-color: #66D7D1;
+  border-radius: 100px 100px;
+  padding: 5% 5%;
+  line-height: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+

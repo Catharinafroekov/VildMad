@@ -12,18 +12,18 @@ fetch("https://lumyjlzobfetmedfjjvk.supabase.co/rest/v1/VildMad", {
   .then(showData);
 
 function showData(categories) {
+ /*  console.log("her kommer mine categories: " + categories) */
   categories.forEach(showCategories);
 
   function showCategories(onecat) {
-    console.log(onecat)
+    /* console.log(onecat); */
     const template = document.querySelector("#category").content;
     const copy = template.cloneNode(true);
 
     copy.querySelector("h2").textContent = onecat.name;
-    copy.querySelector("p").textContent = onecat.category;
-    copy.querySelector(
-      "img"
-    ).src = onecat.image;
+    /* copy.querySelector("p").textContent = onecat.category; */
+    copy.querySelector("img").src = onecat.image;
+    copy.querySelector("a.button").href = `plante.html?id=${onecat.id}` ;
 
     document.querySelector("main").appendChild(copy);
   }

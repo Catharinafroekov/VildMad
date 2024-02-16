@@ -3,26 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Plante</title>
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <title>Plantinfo</title>
   </head>
   <body>
     <header>
-        <a href="index.html">Logo</a>
-        <nav>
-            <p>breadcrum</p>
-        </nav>
+      <a href="index.html">Logo</a>
+      <nav>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="kategori.html">Month</a></li>
+          <li>Current Page</li>
+        </ol>
+      </nav>
     </header>
     <main>
-        <template id="planteKort">
-            <h1>plante</h1>
-<Div class="grid_1-1">
-    <p>info</p>
-    <img src="" alt="plante">
-</Div>
-        </template>
+      <template id="planteKort">
+        <h1>plantenavn</h1>
+        <section id="infoBox" class="grid_1-1">
+          <div>
+            <img src="img/daisy.jpg" alt="plante" class="singlePlante" />
+          </div>
+          <div>
+            <h2>About</h2>
+            <p class="info">
+             description
+            </p>
+          </div>
+        </section>
+      </template>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Contact us</p>
+      <p>Tlf: +45 7024 1207</p>
+      <p>Mail: group7@hotmail.com</p>
+      <form>
+        <label>
+          Questions
+        </label>
+        <input type="text">
+        <button>Send</button>
+      </form>
+    </footer>
+    <script src="js/plante.js"></script>
   </body>
 </html>
