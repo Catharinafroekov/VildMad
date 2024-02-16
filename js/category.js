@@ -19,9 +19,8 @@ function showData(categories) {
     /* console.log(onecat); */
     const template = document.querySelector("#category").content;
     const copy = template.cloneNode(true);
-
+    /* copy.querySelector("h1").textContent = onecat.month; */
     copy.querySelector("h2").textContent = onecat.name;
-    /* copy.querySelector("p").textContent = onecat.category; */
     copy.querySelector("img").src = onecat.image;
     copy.querySelector("a.button").href = `plante.html?id=${onecat.id}` ;
 

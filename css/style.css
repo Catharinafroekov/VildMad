@@ -4,16 +4,19 @@
 #66D7D1 turkis
 #403D58 mørkeblå
 #DBD56E grøn */
-body{
-  background-color: #F2EFEA;
+body {
+  /* background-color: #f2efea; */
+background-image: url("https://i.pinimg.com/564x/94/20/98/942098bbdc06fe613170a6cf12fc2772.jpg");
+backdrop-filter: blur(5px);
+object-fit: cover;
 }
 
-main{
+main {
   padding: 4em;
 }
 
-footer{
-  background-color: #DBD56E;
+footer {
+  background-color: #dbd56e;
 }
 
 @font-face {
@@ -33,7 +36,9 @@ h2 {
   text-align: center;
 }
 
-p, form, button {
+p,
+form,
+button {
   font-family: "avenir";
   font-size: 20px;
 }
@@ -44,19 +49,19 @@ img {
   border-radius: 50%;
 }
 
-.frontImg img{
+.frontImg img {
   height: 400px;
   width: 100%;
-border-radius: 0;
-z-index: -1;
-place-content: cover;
+  border-radius: 0;
+  z-index: -1;
+  place-content: cover;
 }
 
-.frontP{
+.frontP {
   position: absolute;
   z-index: 1;
   text-align: center;
-  background-color: #66D7D1;
+  background-color: #66d7d1;
   border-radius: 100px;
   padding: 5% 5%;
   left: 42.5%;
@@ -70,7 +75,7 @@ place-content: cover;
 
 /* knap på måned side */
 .button {
-  background-color: #66D7D1;
+  background-color: #66d7d1;
   /* border: solid 1px rgb(20, 20, 20); */
   color: rgb(20, 20, 20);
   text-decoration: none;
@@ -80,19 +85,23 @@ place-content: cover;
 }
 
 .button:hover {
-  background-color: #F2EFEA;
+  background-color: #f2efea;
   cursor: pointer;
-  
 }
 
-#infoBox{
-  background-color: #66D7D1;
+#infoBox {
+  background-color: #66d7d1;
   border-radius: 100px 100px;
   padding: 5% 5%;
   line-height: 40px;
 }
 
-a{
+a {
   text-decoration: none;
+  word-wrap: keep-all;
 }
 
+.logo{
+  height: auto;
+  width: 100px;
+}
