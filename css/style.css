@@ -105,3 +105,7 @@ a {
   height: auto;
   width: 100px;
 }
+
+.monthsWheel{
+  background-color: #66d7d1;
+}
