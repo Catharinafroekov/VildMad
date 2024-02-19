@@ -5,43 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/nav.css" />
     <title>Category</title>
   </head>
   <body>
     <header>
       <a href="index.html">
-        <img src="img/vild-mad-logo.svg" alt="" class="logo">
+        <img src="img/vild-mad-logo.svg" alt="" class="logo" />
       </a>
       <nav>
         <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Current Page</li>
+          <li><a href="index.html">Home</a></li>
+          <li>Current Page</li>
         </ol>
-    </nav>
-    <h1>Month</h1>
+      </nav>
+      <section id="monthName">
+        <!-- Month name is added dynamically here -->
+      </section>
     </header>
-    <main class="grid_1-1-1">
 
+    <main class="grid_1-1-1">
       <template id="category">
-            <div class="category">
-              <img src="" alt="plante" />
-        <h2>navn</h2>
-        <a href="plante.html" class="button">Read More</a>
+        <div class="category">
+          <img src="" alt="plante" />
+          <h2>navn</h2>
+          <a href="plante.html" class="button">Read More</a>
         </div>
       </template>
-    </section>
-      <script src="js/category.js"></script>
+      <script src="js/month.js"></script>
     </main>
     <footer>
       <p>Contact us</p>
       <p>Tlf: +45 7024 1207</p>
       <p>Mail: group7@hotmail.com</p>
-      <form name="q&a"netlify>
-        <label>
-          Questions
-        </label>
-        <input type="text">
+      <form name="q&a" netlify>
+        <label> Questions </label>
+        <input type="text" />
         <button>Send</button>
       </form>
     </footer>
