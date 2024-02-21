@@ -60,10 +60,12 @@ img {
   position: absolute;
   z-index: 1;
   text-align: center;
-  background-color: #66d7d1;
+  background-color: rgba(102, 215, 209, 0.9);
   border-radius: 100px;
   padding: 5% 5%;
-  left: 42.5%;
+  left: 10%;
+  margin-right: 40%;
+  margin-top: 5%;
 }
 
 .category {
