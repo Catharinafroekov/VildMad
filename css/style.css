@@ -16,6 +16,7 @@ main {
 
 footer {
   background-color: #dbd56e;
+  margin-top: 5%;
 }
 
 @font-face {
@@ -49,7 +50,6 @@ img {
 }
 
 .frontImg img {
-  height: 400px;
   width: 100%;
   border-radius: 0;
   z-index: -1;
