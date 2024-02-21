@@ -1,0 +1,184 @@
+#month_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jan_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_jan {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-jan.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    
+  }
+
+  #feb_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_feb {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-feb.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 30deg;
+  }
+
+  #mar_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_mar {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-mar.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 60deg;
+  }
+  #apr_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_apr {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-apr.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 90deg;
+  }
+
+  #may_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_may {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-maj.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 120deg;
+  }
+
+  #jun_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_jun {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-jun.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 150deg;
+  }
+
+  #jul_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_jul {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-juli.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 180deg;
+  }
+  #aug_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_aug {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-aug.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 210deg;
+  }
+
+  #sep_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_sep {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-sep.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 240deg;
+  }
+
+  #oct_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_oct {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-oct.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 270deg;
+  }
+
+  #nov_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 185/370;
+  }
+  
+  #tre_nov {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-nov.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 300deg;
+  }
+
+  #dec_container {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 185/370;
+    top: -0.2%;
+  }
+  
+  #tre_dec {
+    width: 100%;
+    height: 100%;
+    background-image: url(../SVG/trekant-dec.svg);
+    background-size: cover;
+    transform-origin: left bottom;
+    rotate: 330deg;
+  }

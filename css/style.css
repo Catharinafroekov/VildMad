@@ -6,8 +6,7 @@
 #DBD56E grøn */
 body {
   /* background-color: #f2efea; */
-background-image: url("https://i.pinimg.com/564x/94/20/98/942098bbdc06fe613170a6cf12fc2772.jpg");
-backdrop-filter: blur(5px);
+background-image: url(../img/background1.webp);
 object-fit: cover;
 }
 
