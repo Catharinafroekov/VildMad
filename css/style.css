@@ -57,15 +57,10 @@ img {
 }
 
 .frontP {
-  position: absolute;
-  z-index: 1;
   text-align: center;
   background-color: rgba(102, 215, 209, 0.9);
   border-radius: 100px;
-  padding: 5% 5%;
-  left: 10%;
-  margin-right: 40%;
-  margin-top: 5%;
+  padding: 5%;
 }
 
 .category {
@@ -76,13 +71,12 @@ img {
 
 /* knap på måned side */
 .button {
-  background-color: #66d7d1;
+  background-color: #eef8f3;
   /* border: solid 1px rgb(20, 20, 20); */
   color: rgb(20, 20, 20);
   text-decoration: none;
-  padding: 5px;
-  padding-left: 85px;
-  padding-right: 85px;
+  padding: 5%;
+  font-family: "avenir";
 }
 
 .button:hover {
