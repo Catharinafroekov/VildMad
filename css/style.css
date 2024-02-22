@@ -29,7 +29,12 @@ footer {
   src: url(../font/Novecento.woff2);
 }
 
-h1,
+h1{
+  font-family: "novecento";
+  font-size: 42px;
+  text-align: center;
+}
+
 h2 {
   font-family: "novecento";
   font-size: 28px;
@@ -57,7 +62,6 @@ img {
 }
 
 .frontP {
-  text-align: center;
   background-color: rgba(102, 215, 209, 0.9);
   border-radius: 100px;
   padding: 5%;
