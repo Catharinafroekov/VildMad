@@ -26,8 +26,6 @@ month.forEach((oneMonth) => {
 
     // Add the month to the set to mark it as added
     addedMonths.add(monthName);
-  } /* else {
-    console.log("Already added:", monthName); // Log if the month is already in the set
-  } */
+  }
 });
 }

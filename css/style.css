@@ -11,12 +11,15 @@ backdrop-filter: blur(5px);
 object-fit: cover;
 }
 
-main {
+header, main {
   padding: 4em;
 }
 
 footer {
   background-color: #dbd56e;
+  margin: 0;
+  padding: 2%;
+
 }
 
 @font-face {
@@ -30,10 +33,13 @@ footer {
 }
 
 h1,
-h2 {
+h2, h3 {
   font-family: "novecento";
-  font-size: 28px;
+  font-size: 36px;
   text-align: center;
+  letter-spacing: 1px;
+  color: #403D58;
+
 }
 
 p,
@@ -75,7 +81,7 @@ img {
 
 /* knap på måned side */
 .button {
-  background-color: #66d7d1;
+  background-color: #F2EFEA;
   /* border: solid 1px rgb(20, 20, 20); */
   color: rgb(20, 20, 20);
   text-decoration: none;
@@ -85,7 +91,7 @@ img {
 }
 
 .button:hover {
-  background-color: #f2efea;
+  background-color: #DBD56E;
   cursor: pointer;
 }
 
@@ -108,4 +114,10 @@ a {
 
 .monthsWheel{
   background-color: #66d7d1;
+  font-family: "avenir";
+  font-size: 26px;
+}
+
+.monthsWheel:hover{
+background-color: #DBD56E;
 }

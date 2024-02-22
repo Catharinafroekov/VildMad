@@ -26,7 +26,7 @@ function showCategories(onecat) {
   const copy = template.cloneNode(true);
   copy.querySelector("h2").textContent = onecat.name;
   copy.querySelector("img").src = onecat.image;
-  copy.querySelector("a.button").href = `plante.html?id=${onecat.id}`;
+  copy.querySelector("a.button").href = `plante.html?id=${onecat.id}&category=${myCategory}`;
 
   document.querySelector("main").appendChild(copy);
 }
