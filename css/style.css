@@ -6,8 +6,7 @@
 #DBD56E grøn */
 body {
   /* background-color: #f2efea; */
-background-image: url("https://i.pinimg.com/564x/94/20/98/942098bbdc06fe613170a6cf12fc2772.jpg");
-backdrop-filter: blur(5px);
+background-image: url(../img/background1.webp);
 object-fit: cover;
 }
 
@@ -17,9 +16,6 @@ header, main {
 
 footer {
   background-color: #dbd56e;
-  margin: 0;
-  padding: 2%;
-
 }
 
 @font-face {
@@ -33,7 +29,7 @@ footer {
 }
 
 h1,
-h2, h3 {
+h2 {
   font-family: "novecento";
   font-size: 36px;
   text-align: center;
@@ -56,7 +52,6 @@ img {
 }
 
 .frontImg img {
-  height: 400px;
   width: 100%;
   border-radius: 0;
   z-index: -1;
@@ -64,13 +59,10 @@ img {
 }
 
 .frontP {
-  position: absolute;
-  z-index: 1;
-  text-align: center;
-  background-color: #66d7d1;
+  background-color: rgba(102, 215, 209, 0.9);
   border-radius: 100px;
-  padding: 5% 5%;
-  left: 42.5%;
+  padding: 5%;
+  margin-top: 5%;
 }
 
 .category {
@@ -85,9 +77,8 @@ img {
   /* border: solid 1px rgb(20, 20, 20); */
   color: rgb(20, 20, 20);
   text-decoration: none;
-  padding: 5px;
-  padding-left: 85px;
-  padding-right: 85px;
+  padding: 5%;
+  font-family: "avenir";
 }
 
 .button:hover {

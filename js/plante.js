@@ -32,3 +32,4 @@ function showPlants(oneplant) {
 
   document.querySelector("main").appendChild(copy);
 }
+
